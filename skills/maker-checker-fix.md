@@ -27,11 +27,11 @@ that are there.
 
 ## Step 2 — IMPLEMENTER: branch, fix, commit
 
-1. Create an isolated git worktree so the fix never touches the
-   working tree of `main`:
+1. From the repo root, create an isolated git worktree so the fix
+   never touches the working tree of `main`:
 
    ```
-   git worktree add ../<PROJECT_DIR>-<SLUG> -b fix/<SLUG>
+   git worktree add <PROJECT_DIR>-<SLUG> -b fix/<SLUG>
    ```
 
 2. Add `<PROJECT_DIR>-<SLUG>/` to `.gitignore` at the repo root if it
@@ -84,10 +84,11 @@ Reviewer instructions:
 
 ## Cleanup
 
-- After a PASS is merged (or otherwise handled), remove the worktree:
+- After a PASS is merged (or otherwise handled), remove the worktree
+  (run from the repo root):
 
   ```
-  git worktree remove ../<PROJECT_DIR>-<SLUG>
+  git worktree remove <PROJECT_DIR>-<SLUG>
   ```
 
 - After a FAIL, leave the worktree until a human decides what to do
