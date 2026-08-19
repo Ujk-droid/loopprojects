@@ -1,0 +1,6 @@
+Done. Summary:
+
+- Fetched the live rate for 1/2" Square Bar via `get_material_rate` (Rs 265/kg) — the only material in the order.
+- Built the estimate in `drafts/email-order-1-draft.md`: material cost table (94 ft total = 44' vertical + 30' horizontal + 20' border, derived per-ft rate Rs 102.267570 using the same weight formula as the approved reference), labour (1 day flagged as an assumption), and a Rs 200 electricity estimate (also flagged).
+- Stopped right after "Subtotal before profit" (Rs 12,813.15) and ended the file with the exact required line, no invented profit %.
+- Appended the fetched rate to `progress.md` in the existing `- date | keyword | rate` format.

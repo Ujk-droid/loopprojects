@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+:root {
+  --bg-top: #060d16;
+  --bg-bottom: #0a1826;
+  --card-bg: #0e2a3f;
+  --card-border: rgba(125, 211, 252, 0.2);
+  --accent-sky: #0ea5e9;
+  --accent-cyan: #22d3ee;
+  --text-primary: #e6f6fb;
+  --text-muted: #7dd3fc;
+}
+
+@theme inline {
+  --color-background: var(--bg-bottom);
+  --color-foreground: var(--text-primary);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 100%) fixed;
+  color: var(--text-primary);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* ---------- signature visual: drifting waves + metallic sheen sweep ---------- */
+
+.wave-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.wave-svg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 200%;
+  height: 40vh;
+  min-height: 220px;
+}
+
+.wave-path-back {
+  animation: wave-drift-back 26s linear infinite;
+}
+
+.wave-path-front {
+  animation: wave-drift-front 18s linear infinite;
+}
+
+@keyframes wave-drift-back {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-1200px);
+  }
+}
+
+@keyframes wave-drift-front {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-1200px);
+  }
+}
+
+.sheen-sweep {
+  position: absolute;
+  top: -20%;
+  left: -60%;
+  width: 45%;
+  height: 140%;
+  background: linear-gradient(
+    100deg,
+    transparent 0%,
+    rgba(125, 211, 252, 0) 35%,
+    rgba(125, 211, 252, 0.06) 48%,
+    rgba(226, 250, 255, 0.1) 50%,
+    rgba(125, 211, 252, 0.06) 52%,
+    rgba(125, 211, 252, 0) 65%,
+    transparent 100%
+  );
+  mix-blend-mode: screen;
+  animation: sheen-travel 9s ease-in-out infinite;
+}
+
+@keyframes sheen-travel {
+  0% {
+    transform: translateX(0);
+  }
+  55% {
+    transform: translateX(220vw);
+  }
+  100% {
+    transform: translateX(220vw);
+  }
+}
+
+/* ---------- glass card ---------- */
+
+.glass-card {
+  background: rgba(14, 42, 63, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--card-border);
+  border-radius: 1rem;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.glass-card:hover {
+  border-color: rgba(125, 211, 252, 0.4);
+  box-shadow: 0 0 32px rgba(34, 211, 238, 0.18), 0 0 2px rgba(34, 211, 238, 0.3);
+  transform: translateY(-2px);
+}
+
+.label-caps {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.text-accent {
+  color: var(--accent-cyan);
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.4s ease both;
+}

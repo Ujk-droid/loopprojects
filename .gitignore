@@ -21,3 +21,4 @@ Thumbs.db
 loop4-fix/
 loop4-bad-example/
 loop4-document-progress-file/
+node_modules/ echo .next/ echo .venv/ echo __pycache__/

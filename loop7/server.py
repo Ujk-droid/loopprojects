@@ -159,7 +159,7 @@ def _product_matches(product: dict, tokens: list[str]) -> bool:
     return True
 
 
-def _find_rate_lines_impl(html: str, keyword: str) -> list[str]:
+def _find_rate_lines(html: str, keyword: str) -> list[str]:
     products = _parse_products(html)
     descriptive, dimensions = _split_keyword_tokens(keyword)
     matches = [p for p in products if _product_matches(p, descriptive)]
@@ -206,7 +206,7 @@ def get_material_rate(material_keyword: str) -> str:
             "Fall back to the local rates.txt file instead of guessing."
         )
 
-    matches = _find_rate_lines_impl(html, material_keyword)
+    matches = _find_rate_lines(html, material_keyword)
     if not matches:
         return (
             f"No rate line matched '{material_keyword}' on {PRICING_URL} today. "

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "steel-rates": {
+      "command": "/mnt/d/loopprojects/loop4/.venv/bin/python3",
+      "args": ["/mnt/d/loopprojects/loop4/server.py"]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+EMAIL ORDER REQUEST
+From: mudassir.geo97@gmail.com
+Date: 2026-08-19
+Subject: Order Request — Grill Work
+
+=== GRILL ESTIMATE ===
+Size: 6'-0" x 4'-0" (1 Grill)
+Material: 1/2" Square Bar (vertical, horizontal, border)
+
+Calculation (as given in email):
+1. Vertical Bars: 11 Pcs @ 4'-0" = 44'-0"
+2. Horizontal Bars: 5 Pcs @ 6'-0" = 30'-0"
+3. Border (Perimeter): 20'-0"
+
+Customer request: Kindly share the estimated cost.

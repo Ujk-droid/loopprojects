@@ -1,0 +1,4 @@
+Done. Summary:
+
+- **drafts/order-6-draft.md** — order-6.txt is text-identical to order-1.txt, so same Window+Gate+Grill scope. Fetched live rates for all 7 materials; the 1‑1/2"x1‑1/2" square pipe now lives under a different site category ("Prime Rectangle") at a higher rate (Rs 2,803 vs the Rs 2,051 seen previously), which I flagged explicitly. Glass and hardware still have no matching rate line, so they're excluded. Material subtotal Rs 68,833.58 + labour Rs 12,000 + electricity Rs 800 = **Subtotal before profit: Rs 81,633.58**, file ends with the required `AWAITING OWNER-SET PROFIT % to finalize.` line — no profit % invented.
+- **progress.md** — appended 7 new rate-check lines (2026-08-19) in the existing `- date | keyword | rate` format, including the two "no rate line matched" exclusions.

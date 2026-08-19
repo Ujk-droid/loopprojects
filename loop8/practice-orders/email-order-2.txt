@@ -1,0 +1,20 @@
+EMAIL ORDER REQUEST
+From: hn5511389@gmail.com
+Date: 2026-08-19
+Subject: New Order Request — Window Estimate
+
+=== WINDOW ESTIMATE ===
+Size: 4'-0" x 5'-0" (1 Window)
+Material:
+1. 2" x 2" Square Pipe (Frame)
+2. 1" x 2" Rectangular Pipe (Sash)
+3. 1/2" Square Bar (Grill)
+4. 3mm Glass
+5. Hinges, Lock, Handle
+
+Calculation (as given in email):
+1. Frame (2"x2" Pipe): Total = 18'-0"
+2. Sash (1"x2" Pipe): Total = 27'-4"
+3. Grill (1/2" Square Bar): Total = 42'-0"
+
+Customer request: Please send the estimate when ready.

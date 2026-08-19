@@ -1,0 +1,56 @@
+KAMRAN STEEL WORKS - PRACTICE ORDER (copy for testing only)
+Ref: Estimate | Date: 11/06/2025
+
+=== WINDOW ESTIMATE ===
+Size: 4'-0" x 5'-0" (1 Window)
+Material:
+1. 2" x 2" Square Pipe (Frame)
+2. 1" x 2" Rectangular Pipe (Sash)
+3. 1/2" Square Bar (Grill)
+4. 3mm Glass
+5. Hinges, Lock, Handle
+
+Calculation:
+1. Frame (2"x2" Pipe): 4'-0"+4'-0"+5'-0"+5'-0" = 18'-0"
+2. Sash (1"x2" Pipe): 4 Pcs @ 5'-0" = 20'-0", 4 Pcs @ 1'-11" = 7'-4", Total = 27'-4"
+3. Grill (1/2" Square Bar): Vertical 6 Pcs @ 5'-0" = 30'-0", Horizontal 3 Pcs @ 4'-0" = 12'-0", Total = 42'-0"
+
+Historical Estimated Amount = Rs 24,500/-
+
+=== GATE ESTIMATE ===
+Size: 10'-0" x 7'-0" (1 Double Leaf Gate)
+Material:
+1. 2" x 2" Square Pipe (Frame)
+2. 1-1/2" x 1-1/2" Square Pipe (Inner Frame)
+3. 1/2" Square Bar (Vertical)
+4. 1/2" Square Bar (Horizontal)
+5. Sheet 18 Gauge
+6. Hinges, Aldrop, Lock, Handle
+
+Calculation:
+1. Outer Frame (2"x2" Pipe): 2(7'-0")+1(20'-0") = 34'-0"
+2. Inner Frame (1-1/2"x1-1/2" Pipe): 4 Pcs @ 7'-0" = 28'-0", 4 Pcs @ 4'-6" = 18'-0", Total = 46'-0"
+3. Vertical Bars (1/2" Square): 22 Pcs @ 7'-0" = 154'-0"
+5. Sheet @ 18 Gauge
+
+Historical Estimated Amount = Rs 58,000/-
+
+=== GRILL ESTIMATE ===
+Size: 6'-0" x 4'-0" (1 Grill)
+Material:
+1. 1/2" Square Bar (Vertical)
+2. 1/2" Square Bar (Horizontal)
+3. 1/2" Square Bar (Border)
+
+Calculation:
+1. Vertical Bars: 11 Pcs @ 4'-0" = 44'-0"
+2. Horizontal Bars: 5 Pcs @ 6'-0" = 30'-0"
+3. Border (Perimeter): 2(4'-0")+2(6'-0") = 20'-0"
+
+Historical Estimated Amount = Rs 9,500/-
+
+=== GRAND TOTAL (known, for checking only) ===
+Window + Gate + Grill = Rs 24,500 + Rs 58,000 + Rs 9,500 = Rs 92,000/-
+Note: rate valid for 15 days at time of original estimate (11/06/2025).
+Do NOT use this historical total as an input to the calculation — use it only
+at the end, to check how close the freshly-calculated estimate comes.

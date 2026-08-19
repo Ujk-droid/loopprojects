@@ -1,0 +1,7 @@
+Found and fixed the bug, but it can't take effect yet:
+
+**Bug found:** `practice-orders/order-5.txt` is byte-identical to `order-1.txt`. While preparing to fetch rates, `get_material_rate` failed on every call with `name '_find_rate_lines' is not defined`. Checking `server.py`'s uncommitted diff showed an in-progress rename: the function was renamed `_find_rate_lines` → `_find_rate_lines_impl`, but the call site inside `get_material_rate` (line 209) was never updated. I fixed that call site.
+
+**Why it's still broken:** the MCP server (`server.py`) runs as a long-lived subprocess (PID 19863) that was already spawned with the old, broken code in memory before my edit. Editing the source file on disk doesn't change what's already loaded into that running process — the fix only takes effect after the server process restarts and reconnects.
+
+I don't have a tool to restart an MCP server connection mid-session, and killing that process myself is risky (the session may not auto-respawn it, which would strand this task entirely). Could you restart/reconnect the `steel-rates` MCP server (or restart this session)? Once it's back with the fix, I'll proceed immediately to fetch live rates for every material in the order and build the `drafts/order-5-draft.md` estimate per your spec.

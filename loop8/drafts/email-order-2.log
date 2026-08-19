@@ -1,0 +1,5 @@
+Done. Summary:
+
+- Fetched live rates for all 5 materials in the order (2"×2" pipe, 1"×2" pipe, 1/2" square bar via MCP; glass and hinges/lock/handle returned no match, so they're excluded rather than guessed).
+- Built the estimate at `drafts/email-order-2-draft.md`: material subtotal Rs 9,348.27 + labour Rs 3,000 (1 day) + electricity Rs 200 = **Rs 12,548.27 subtotal before profit**, with ⚠️ ASSUMPTION lines for the unstated gauge, the derived square-bar rate, the excluded glass/hardware, and the estimated labour/electricity. File ends with the required `AWAITING OWNER-SET PROFIT % to finalize.` line — no profit % invented.
+- Appended 5 new rate-check lines to `progress.md` in the existing `- date | keyword | rate` format.
